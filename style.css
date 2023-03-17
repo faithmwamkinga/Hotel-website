@@ -1,0 +1,208 @@
+header{
+display: flex;
+flex-direction: row;
+filter: contrast(85%);
+font-size: x-large;
+}
+ buttonlogin{
+    margin-left: 20%;
+}
+button{
+    margin-right: 3%;
+} 
+ 
+.landingpage{
+    display: flex;
+    flex-direction: row;
+    border: solid; 
+    color:rgb(75, 51, 19);
+    background-color: antiquewhite;
+    border-radius: 100px;
+    width: 50%;
+    margin-left: 25%;
+}
+.icon{
+padding: 20px;
+    width: 25px;
+    height: 25px
+}
+.container{
+    height: 80vh;
+    background-image: url(hotel2.jpg);
+    
+}
+#welcoming{
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    color: white;
+    
+
+}
+#companyphrase{
+    text-align: center;
+}
+body{
+    overflow-x: hidden;
+    background-color:#f1f3f5 ;
+    
+   
+ 
+
+
+}
+.popularhotels img{
+    margin-left: 2%;
+    width: 30%;
+    height: 50vh;
+}
+.popularhotel{
+     display: grid;
+    grid-template-rows: repeat(3,1fr);  
+
+
+}
+#seemore{
+    background-color: #a5d8ff;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 45%;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+#popular{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+h2{
+    margin-top: 0%;
+    text-align: center;
+    font-size: 40px;
+}
+.ourfacilities{
+display: flex;
+flex-direction: row;
+}
+.facilities img{
+    width: 20%;
+    height: 40vh;
+    margin-left: 3%;
+}
+
+.otherfacilities{
+    margin-top: 5%;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+.ourrooms{
+    display: flex;
+    flex-direction: row;
+    }
+    .ourrooms img{
+        width: 40%;
+        height: 40vh;
+        margin-left: 3%;
+    }
+    .rooms{
+        margin-top: 10%;
+        margin-left: 2%;
+        margin-right: 3%;
+     
+    }
+     .otherrooms img{
+        padding-left: 50px;
+    } 
+    .otherrooms{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        margin-left: 3%;
+        margin-right: 5%;
+        width: 40%;
+        height: 40vh;
+       
+    }
+
+.otherfoods{
+    margin-top: 5%;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+.ourmenu{
+    display: flex;
+    flex-direction: row;
+    }
+    .ourmenu img{
+        width: 40%;
+        height: 40vh;
+        margin-left: 3%;
+    }
+    .foods{
+        margin-top: 10%;
+        margin-left: 2%;
+        margin-right: 3%;
+     
+    }
+     .otherfoods img{
+        padding-left: 20px;
+        width: 40%;
+        height: 40vh;
+    } 
+    .otherfoods{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        margin-left: 3%;
+        margin-right: 0%;
+      
+       
+    }
+
+.customers{
+    margin-top: 10%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+    
+    }
+    .customers img{
+        width: 40%;
+        height: 20vh;
+    }
+    #clients{
+        text-align: center;
+        font-size: 60px;
+        font-weight: bold;
+    }
+    
+    .people {
+        width: 40%;
+        height: 40%;
+        margin-left: 3%;
+    }
+     .people img{
+        width: 80%;
+        height: 20vh;
+    } 
+    .secondperson{
+        margin-top: 10%;
+        margin-left: 2%;
+        margin-right: 3%;
+     
+    }
+    /* .secondperson img{
+        width: 60%;
+        height: 40%;
+    } */
+    .thirdperson{
+
+    }
+    /* .thirdperson img{
+        width: 60%;
+        height: 40%;
+    } */
