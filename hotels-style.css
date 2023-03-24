@@ -1,5 +1,6 @@
 body{
     overflow-x: hidden;
+    background-color:#f1f3f5 ;
 }
 header{
 display: flex;
@@ -10,6 +11,7 @@ font-size: x-large;
     .hotel{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        
     }
     .hotel .manypics{
         display: grid;
@@ -30,6 +32,9 @@ font-size: x-large;
         margin-top: 10%;
         
 
+    }
+    .last{
+        background-color: #f1f3f5;
     }
 
 

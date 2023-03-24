@@ -4,6 +4,9 @@ header{
     font-size: x-large;
   
     }
+    body{
+        background-color:#f1f3f5 ;
+    }
    
     button{
         margin-right: 3%;
