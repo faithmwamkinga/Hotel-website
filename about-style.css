@@ -2,32 +2,66 @@ header{
     display: flex;
     flex-direction: row;
     font-size: x-large;
+  
+    }
+   
+    button{
+        margin-right: 3%;
+        width: 10%;
+        height: 7vh;
+        border-radius: 20px;
+        background-color: aqua;
+       
+    } 
+    /* #login{
+        margin-right: 5%;
+    } */
+    #sign{
+        margin-left: 50%;
     }
     .leftside{
         margin-top: 5%;
      display: grid;
      grid-template-columns: repeat(2,1fr);
+     font-size: larger;
     }
     .leftside img{
         width: 70%;
         height: 50vh;
-        border-top-right-radius: 30px;
-        border-bottom-left-radius: 30px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
     }
     .aboutpage{
         display: flex;
-        
+        margin-top: 5%;
+        font-size: larger;
     }
-    .hotelloby img
+    #centre{
+
+        width: 90%;
+        height: 50vh;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        margin-left: 30%;
+    }
+    .hotelloby img{
+        width: 70%;
+        height: 50vh;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        margin-right: 5%;
+    }
     .approach{
         margin-top: 5%;
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        font-size: larger;
     }
     .approach img{
         width: 70%;
         height: 50vh;
         border-top-right-radius: 30px;
         border-bottom-left-radius: 30px;
+      
     }
    
