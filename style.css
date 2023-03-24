@@ -45,11 +45,6 @@ padding: 20px;
 body{
     overflow-x: hidden;
     background-color:#f1f3f5 ;
-    
-   
- 
-
-
 }
 .popularhotels img{
     margin-left: 2%;
@@ -82,29 +77,34 @@ h2{
     font-size: 40px;
 }
 .ourfacilities{
-display: flex;
-flex-direction: row;
+display: grid;
+grid-template-columns: repeat(4,1fr);
 }
+
 .facilities img{
-    width: 20%;
-    height: 40vh;
+    width: 80%;
+    height: 25vh;
     margin-left: 3%;
 }
 
 .otherfacilities{
     margin-top: 5%;
     margin-left: 1%;
-    display: flex;
-    flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.otherfacilities img{
+    width: 80%;
+    height: 20vh;
 }
 
 .ourrooms{
-    display: flex;
-    flex-direction: row;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
     }
     .ourrooms img{
-        width: 40%;
-        height: 40vh;
+        width: 80%;
+        height: 30vh;
         margin-left: 3%;
     }
     .rooms{
@@ -114,17 +114,17 @@ flex-direction: row;
      
     }
      .otherrooms img{
-        padding-left: 50px;
+        /* padding-right: 50px; */
+        margin-left: 3%;
+        width: 80%;
+        height: 30vh;
     } 
     .otherrooms{
-        display: flex;
-        flex-direction: row;
+       display: grid;
+       grid-template-columns: repeat( 3,1fr);
         margin-top: 5%;
-        margin-left: 3%;
-        margin-right: 5%;
-        width: 40%;
-        height: 40vh;
-       
+        /* margin-left: 3%; */
+        /* margin-right: 5%; */
     }
 
 .otherfoods{
@@ -151,7 +151,7 @@ flex-direction: row;
     }
      .otherfoods img{
         padding-left: 20px;
-        width: 40%;
+        width: 30%;
         height: 40vh;
     } 
     .otherfoods{
@@ -242,24 +242,146 @@ flex-direction: row;
     }
   @media(max-width:1200px){
     body{
-
     }
-  }
+        .ourrooms{
+            display: flex;
+            flex-direction: row;
+            }
+            .ourrooms img{
+                width: 70%;
+                height: 25vh;
+                margin-left: 3%;
+            }
+            .rooms{
+                margin-top: 10%;
+                margin-left: 2%;
+                margin-right: 3%;
+             
+            }
+             .otherrooms img{
+                padding-left: 50px;
+                width: 70%;
+                height: 25vh;
+            } 
+            .otherrooms{
+                display: flex;
+                flex-direction: row;
+                margin-top: 5%;
+                margin-left: 3%;
+                margin-right: 5%;
+           
+        
+  }  .ourmenu img{
+    width: 20%;
+    height: 20vh;
+    margin-left: 3%;
+}
+.otherfoods img{
+    width: 20%;
+    height: 20vh;
+    margin-left: 1%;
+}
+.customers{
+    margin-left: 1%; 
+}
+}
   @media(max-width:992px){
     body{
 
     }
+    #clients{
+        text-align: center;
+    }
+    .customers{
+        margin-left: 0%; 
+    }
+    .ourrooms{
+        display: flex;
+        flex-direction: row;
+        }
+        .ourrooms img{
+            width: 30%;
+            height: 20vh;
+            margin-left: 3%;
+        }
+        .rooms{
+            margin-top: 10%;
+            margin-left: 2%;
+            margin-right: 3%;
+         
+        }
+         .otherrooms img{
+            padding-left: 50px;
+        } 
+        .otherrooms{
+            display: flex;
+            flex-direction: row;
+            margin-top: 5%;
+            margin-left: 3%;
+            margin-right: 5%;
+            width: 40%;
+            height: 20vh;
+           
+        }
   }
   @media(max-width:768px){
-    body{
+    .footer{
+        width: 0%;
 
+    }
+    .ourfacilities img{
+        height: 20%;
+        width: 50%;
+    }
+    .customers img{
+        margin-right: 40%;
+        height: 20vh;
+
+    }
+    .landingpage{
+        width: 10%;
     }
   }
   @media(max-width:576px){
-    body{
+    .footerpart{
+   
+     margin-right: 10%;
+    }
+    .footer{
+        width: 2%;
 
     }
+    .ourfacilities img{
+        height: 25vh;
+        width: 80%;
+    }
+    .facilities img{
+        width: 80%;
+        height: 15vh;
+    }
+    /* .customers img{
+        margin-right: 0%;
+        height: 20vh;
+
+    } */
+    .landingpage{
+        width: 10%;
+    }
+    .ourrooms{
+        width: 100%;
+        height: 35vh;
+    }
+    .otherroomsimg{
+        width: 40%;
+        height: 35vh;
+        margin-right: 0%;
+        margin-left: 0%;
+        padding: 0px;
+        margin-top: 2%;
+    }
+   
   }
+
   
   
 

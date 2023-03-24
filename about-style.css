@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+    }
+    .leftside{
+        margin-top: 5%;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+    }
+    .leftside img{
+        width: 70%;
+        height: 50vh;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .aboutpage{
+        display: flex;
+        
+    }
+    .hotelloby img
+    .approach{
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .approach img{
+        width: 70%;
+        height: 50vh;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+   
