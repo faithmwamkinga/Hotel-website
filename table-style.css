@@ -32,12 +32,12 @@ p{
     text-align: center;
 }
 .table{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    display: flex;
+    flex-direction: row;  
     margin-left: 5%;
 }
 .othertable{
-    /* margin-left: 2%; */
+    margin-left: 2%;
 }
 input{
     
@@ -82,8 +82,29 @@ footer{
 }
 
 @media (max-width:600px){
-label{
+    body{
+        overflow: scroll;
+    }
+.table{
      display: grid;
-     grid-template-columns: repeat(1,1fr);   
+     grid-template-columns:(1,1fr);   
+}
+#submission{
+    width: 20%;
+   
+}
+#messages{
+    width: 70%;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+}
+.login{
+    width: 18%;
+}
+#sign{
+    width: 20%;
 }
 }
